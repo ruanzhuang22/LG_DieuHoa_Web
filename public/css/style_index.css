@@ -1,0 +1,103 @@
+header marquee{
+    background-color: bisque;
+    color: red;
+}
+header .container {
+    background-color: cadetblue;
+}
+.header-infor-store .logo-store h2{
+    text-transform: uppercase;
+    color: bisque;
+    font-family: 'Georgia';
+    font-size: 55px;
+    font-weight: 700;
+    display: inline;
+    text-decoration: underline;
+}
+.navbar .navbar-collapse {
+    background-color: bisque;
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif
+    display  inline-block;
+    
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    color: darkgreen;
+}
+.navbar .navbar-nav .nav-item:hover{
+    font-size: 18px;
+    background-color: cadetblue;
+}
+main .slide .carousel-inner .carousel-caption{
+    color:wheat
+}
+ul.list-product-type li.product-type-item {
+    padding: 10px;
+    border-bottom: solid 1px #eee;
+    display: flex;
+    color:cadetblue;
+}
+a.product-type-name {
+    color: cadetblue;
+    text-align: left;
+}
+ul.list-product-type li.product-type-item:hover {
+    background-color: cadetblue;
+    font-size: 18px;
+}
+img.d-block.w-100 {
+    height: 400px;
+}
+h2.title-session.text-center {
+    border-bottom: 3px double cadetblue;
+    font-family:'FontAwesome';
+    padding-top: 37px;
+}
+.service .pagetitle .anh {
+    position: relative;
+}
+.service .pagetitle .bgr{
+    top: 18%;
+    left: 26%;
+    right: 27%;
+    z-index: 100;
+    position: absolute
+}
+.service .pagetitle .bgr h1{
+    color: black;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    font-weight: normal;
+    padding: 0px 10px 35px;
+}
+a.see-more.a {
+    color: black;
+}
+
+body main {
+    background-color: honeydew;
+}
+footer{
+    background-color: cadetblue;
+}
+footer p{
+    font-size: 15px;
+    color: bisque;
+}
+footer a{
+    color: black;
+}
+footer .list-unstyled{
+    font-size: 18px;
+}
+footer .col-6.col-md h5{
+    font-size: 22px;
+    color: red;
+}
+footer .col-6.col-md ul li a{
+    color: black !important;
+    text-decoration: none;
+}
+footer .col-6.col-md ul li a:hover{
+    color:bisque !important;
+}

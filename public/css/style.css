@@ -1,0 +1,188 @@
+header marquee{
+    background-color: bisque;
+    color: red;
+}
+header .container {
+    background-color: cadetblue;
+}
+.header-infor-store .logo-store h2{
+    text-transform: uppercase;
+    color: bisque;
+    font-family: 'Georgia';
+    font-size: 65px;
+    font-weight: 700;
+    display: inline;
+    text-decoration: underline;
+}
+.navbar .navbar-collapse {
+    background-color: bisque;
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif
+    display  inline-block;
+    
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    color: darkgreen;
+}
+.navbar .navbar-nav .nav-item:hover{
+    font-size: 18px;
+    background-color: cadetblue;
+}
+main .slide .carousel-inner .carousel-caption{
+    color:wheat
+}
+ul.list-product-type li.product-type-item {
+    padding: 10px;
+    border-bottom: solid 1px #eee;
+    display: flex;
+    color:cadetblue;
+}
+a.product-type-name {
+    color: cadetblue;
+    text-align: left;
+}
+ul.list-product-type li.product-type-item:hover {
+    background-color: cadetblue;
+    font-size: 18px;
+}
+img.d-block.w-100 {
+    height: 400px;
+}
+h2.title-session.text-center {
+    border-bottom: 3px double cadetblue;
+    font-family:'FontAwesome';
+    padding-top: 37px;
+}
+.service .pagetitle .anh {
+    position: relative;
+}
+.service .pagetitle .bgr{
+    top: 18%;
+    left: 26%;
+    right: 27%;
+    z-index: 100;
+    position: absolute
+}
+.service .pagetitle .bgr h1{
+    color: bisque;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    font-weight: normal;
+    padding: 28px 10px 35px;
+}
+a.see-more.a {
+    color: black;
+}
+
+body main {
+    background-color: honeydew;
+}
+footer{
+    background-color: cadetblue;
+}
+footer p{
+    font-size: 15px;
+    color: bisque;
+}
+footer a{
+    color: black;
+}
+footer .list-unstyled{
+    font-size: 18px;
+}
+footer .col-6.col-md h5{
+    font-size: 22px;
+    color: red;
+}
+footer .col-6.col-md ul li a{
+    color: black !important;
+    text-decoration: none;
+}
+footer .col-6.col-md ul li a:hover{
+    color:bisque !important;
+}
+/* end index */
+.detailwrap {
+    background: url(http://nhanam.com.vn/Content/images2/headerbg.png) repeat scroll 0 0 rgba(0,0,0,0);
+    box-shadow: 0 0 4px #444;
+    margin: 10px auto;
+    padding: 30px;
+    width: 940px;
+    min-height: 400px;
+}
+.pageheader {
+    padding: 24px 0 0;
+}
+.articledetail {
+    line-height: 20px;
+    margin-top: 20px;
+    color: #333;
+}
+
+.form label {
+    display: block;
+}
+.form p {
+    padding-top: 10px;
+}
+.form input[type="text"], .form input[type="password"] {
+    width: 450px;
+}
+.field-validation-valid {
+    display: none;
+}
+input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+.form .btn {
+    background: #00870a;
+    border: 1px solid #00870a;
+    color: #fff;
+    padding: 5px 10px;
+}
+.signup-button-facebook {
+    border-color: #2f426f;
+    background: #3c5fa8;
+    padding: 6px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.about fieldset{
+    border: 1px solid black  ;
+    margin: 0 2px;
+    padding: .35em .625em .75em;
+}
+legend {
+    border: 2px dashed cadetblue;
+}
+/* end account */
+button.Zebra_DatePicker_Icon {
+    display: block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: url(http://nhanam.com.vn/Content/images/calendar.png) no-repeat left top;
+    text-indent: -9000px;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    line-height: 0;
+    margin-left: 55%;
+    margin-left: 55%;
+}
+
+
+p.infor {
+    display: inline;
+}
+.col-md-8.col-12 {
+    padding: 35px;
+}
+
+

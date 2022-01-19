@@ -1,0 +1,16 @@
+{
+  "name": "11185112",
+  "version": "1.0.0",
+  "description": "website bán hàng Dieu hoa nhiet do LG.Tan huong cuoc song trong moi truong trong sach, yen tinh va thoai may voi may dieu hoa LG." ,
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nguyen hong trang",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}

@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title><%= title%></title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- css -->
+    <link rel="stylesheet" href="../css/style_detail.css">
+    <link rel="stylesheet" href="../css/reponsive.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+  <body>
+    <header>
+      <marquee behavior="scroll" direction="left" scrollamount="5">Tận hưởng cuộc sống trong môi trường trong sạch, yên tĩnh và thoải mái với máy điều hòa LG. Hệ thống lọc khí diệt khuẩn thế hệ mới giúp điều hòa LG mang đến những gì tốt nhất cho bạn.</marquee>
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <a href="index.html" class="col-12 header-infor-store">
+            <div class="logo-store"><img src="https://brasol.vn/public/uploads/1521702667-LG-%E2%80%93-c%C3%A2u-chuy%E1%BB%87n-v%E1%BB%81-thi%E1%BA%BFt-k%E1%BA%BF-logo-%C4%91i-c%C3%B9ng-n%C4%83m-th%C3%A1ng-2-300x295.jpg" width="120" height="100">
+              <h2><%= title%></h2>
+            </div>
+          </a>
+        </div>
+      </div>
+    </header>
+    <!-- end header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center text-center" id="navbarSupportedContent">
+              <ul class="navbar-nav col-md-9">
+                <li class="nav-item ">
+                  <a class="nav-link" href="">Trang chủ<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Giới thiệu</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Cửa hàng</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Tin tức</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Liên hệ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Tài khoản</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0 justify-content-center text-center">
+                <input class="form-control mr-sm-2" type="search" placeholder="Tìm kiếm..." aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+              </form>
+            </div>
+    </nav>
+    <!-- end nav -->
+    <main>
+        <section class="productdetail">
+            <div class="container">
+                <div class="detailwrap">
+                    <div class="row justify-content-center text-center" >
+                        <h3><b style="color: cadetblue">THÔNG TIN SẢN PHẨM</b> </h3>
+                    </div>
+                    <div class="row ">
+                        <div class="col-md-4 col-12 justify-content-center text-center">
+                            <img src="<%= sanpham.anhsp %>" alt="" class="inf-img">
+                        </div>
+                        <div class="col-md-8 col-12">
+                            <ul class="infor">
+                                <h5 class="inf-title">Tên sản phẩm:
+                                    <p class="infor"><%= name %></p>
+                                </h5>
+                                <h5 class="inf-title"> Mã sản  phẩm:
+                                    <p class="infor"> <%= sanpham.masp %></p>
+                                </h5>
+                                <h5 class="inf-title"> giá sản phẩm: <p class="infor"><%= sanpham.giaban %></p></h5>
+                                <h5 class="inf-title">Thông tin chung về sản phẩm:
+                                    <p class="infor"><%= sanpham.motasp %></p> 
+                                </h5>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class=" justify-content-center text-center ">
+        <p style="font-size: 18px;">Nguyễn Hồng Trang <br> Mã sinh viên: 11185112</p>
+        <h4>Website Điều hòa nhiệt độ LG</h4>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <!-- js -->
+      <script src="js/main.js"></script>
+  </body>
+  </html>

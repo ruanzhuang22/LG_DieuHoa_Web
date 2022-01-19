@@ -1,0 +1,135 @@
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 500px) {
+    .logo-store img{
+        width: 70px;
+        height: 70px;
+    }
+    .header-infor-store .logo-store h2 {
+        font-size: 20px;
+    }
+    .service .pagetitle .bgr h1 {
+        font-size: 12px;
+        
+    }
+    .col-md-3.col-12 {
+        justify-content: center;
+        text-align: center;
+        padding: 1rem 0rem;
+    }
+    .col-6.col-md {
+        padding-left: 25px;
+    }
+   
+    .detailwrap {
+        width: 460px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media all and  (min-width: 501px) and (max-width: 799px) {
+    .logo-store img{
+        width: 100px;
+        height: 100px;
+    }
+    .header-infor-store .logo-store h2 {
+        font-size: 30px;
+    }
+    .service .pagetitle .bgr h1 {
+        font-size: 15px;
+        padding: 25px 5px 35px;
+    }
+    .col-md-3.col-12 {
+        justify-content: center;
+        text-align: center;
+        padding: 1rem 0rem;
+    }
+    .col-6.col-md {
+        padding-left: 30px;
+    }
+    .detailwrap {
+        width: 460px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .logo-store img{
+        width: 120px;
+        height: 120px;
+    }
+    .header-infor-store .logo-store h2 {
+        font-size: 40px;
+    }
+    .service .pagetitle .bgr h1 {
+        font-size: 14px;
+    }
+    .col-md-3.col-12 {
+        justify-content: center;
+        text-align: center;
+        padding: 1rem 0rem;
+    }
+    img.mb-2 {
+        height: 120px;
+        width: 120px;
+    }
+    img.inf-img {
+        height: auto;
+        width: 260px;
+    }
+    input.form-control.mr-sm-2 {
+        margin-left: -25%;
+    }
+    .detailwrap {
+        width: 710px;
+    }
+    footer p {
+    font-size: 13px;
+    }
+    footer .col-6.col-md h5 {
+        font-size: 17px;
+    }
+    footer .list-unstyled {
+        font-size: 15px;
+    }
+    
+}
+
+/* Medium devices (landscape tablets, 800px and up) */
+
+@media only screen and (min-width: 800px) {
+    .logo-store img{
+        width: 120px;
+        height: 120px;
+    }
+    .header-infor-store .logo-store h2 {
+        font-size: 40px;
+    }
+    .service .pagetitle .bgr h1 {
+        font-size: 14px;
+    }
+    .col-md-3.col-12 {
+        justify-content: center;
+        text-align: center;
+        padding: 1rem 0rem;
+    }
+    .detailwrap {
+        width: auto;
+    }
+    img.inf-img {
+        height: auto;
+        width: auto;
+    }
+    img.mb-2 {
+        height: 120px;
+        width: 120px;
+    }
+    footer p {
+    font-size: 13px;
+    }
+    footer .col-6.col-md h5 {
+        font-size: 17px;
+    }
+    footer .list-unstyled {
+        font-size: 15px;
+    }
+}
+
